@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&family=Roboto:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.Welcome-Page{
+    border-bottom-color: rgb(0, 81, 255);
+    border-bottom-style: solid;
+    border-width: 2px;
+}
+
+.Welcome-Title{
+    margin-top: 60px;
+    font-size: 80px;
+    text-align: left;
+    margin-right: 150px;
+    font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
+}
+
+.Get-Started{
+    background-color: black;
+    border-style: solid;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 200px;
+}
+
+.Get-Started:hover{
+    transition: transform 0.8s ease;
+    transform: translateX(90px);
+}
+

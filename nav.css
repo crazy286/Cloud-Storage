@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+.Nav{
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 81, 255);
+    border-bottom-width: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    flex-wrap: wrap;
+    z-index: 1000;
+    transition: top 0.3s ease;
+}
+
+.nav-left{
+  font-family: Roboto;
+  font-weight: normal;
+  cursor: pointer;
+  margin-right: auto;
+  padding-left: 30px;
+  font-size: 15px;
+  text-wrap: nowrap;
+  color: rgb(0, 81, 255);
+  filter: blur(0.5px);
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  padding-right: 25px;
+  margin-right: 15px;
+  font-weight: bold;
+  text-wrap: nowrap;
+  font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
+}
+
+.Navs{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 15px;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  background-color: white;
+}
+
+.Navs:hover{
+    transition: transform 0.6s ease;
+    transform: translateY(-8px);
+    color: rgb(0, 81, 255);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+

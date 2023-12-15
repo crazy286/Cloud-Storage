@@ -1,0 +1,47 @@
+.Contact-Us{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact-Us-ui{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Us-ui{
+    line-height: 30px;
+    font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.Socials-ui{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Social-logo{
+    cursor: pointer;
+    width: 48px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Social-logo:hover{
+    transition: transform 0.5s ease;
+    transform: translateY(-20px);
+}
+
+.Mail:hover{
+    color: rgb(0, 81, 255);
+}
+
+
