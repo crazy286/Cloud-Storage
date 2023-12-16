@@ -5,7 +5,9 @@ body{
     width: auto;
     height: auto;
   }
-
+html{
+  scroll-behaviour: smooth;
+}
   body::-webkit-scrollbar{
     display: none;
   }
